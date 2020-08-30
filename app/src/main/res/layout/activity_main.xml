@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="이름 입력"
+        android:background="#C29DF8"/>
+
+    <EditText
+        android:id="@+id/edit_age"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="나이 입력"
+        android:background="#74628F"/>
+
+    <Button
+        android:id="@+id/pushdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터 입력"/>
+
+    <Button
+        android:id="@+id/deletedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터 삭제(이름입력 후 누르세요)"/>
+
+    <Button
+        android:id="@+id/deletealldata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터 전체 삭제"/>
+
+    <Button
+        android:id="@+id/finddata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="데이터 찾기(이름입력 후 누르세요)"/>
+
+    <TextView
+        android:id="@+id/textdata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
